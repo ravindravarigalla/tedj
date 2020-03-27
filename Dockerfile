@@ -1,4 +1,4 @@
-FROM openjdk
+FROM gcr.io/sincere-chariot-264308/openjdk
 VOLUME /tmp
 EXPOSE 8080
 RUN yum install -y procps

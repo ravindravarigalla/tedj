@@ -25,17 +25,17 @@ spec:
   
   containers:
   - name: maven
-    image: maven
+    image: gcr.io/sincere-chariot-264308/maven
     command:
     - cat
     tty: true
   - name: gcloud
-    image: gcloud
+    image: gcr.io/sincere-chariot-264308/gcloud
     command:
     - cat
     tty: true
   - name: helm
-    image: helm
+    image: gcr.io/sincere-chariot-264308/helm
     command:
     - cat
     tty: true
