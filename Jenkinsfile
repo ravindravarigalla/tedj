@@ -25,17 +25,17 @@ spec:
   
   containers:
   - name: maven
-    image:  us.gcr.io/halodoc-fisclouds/maven
+    image: maven
     command:
     - cat
     tty: true
   - name: gcloud
-    image: us.gcr.io/halodoc-fisclouds/gcloud
+    image: gcloud
     command:
     - cat
     tty: true
   - name: helm
-    image: us.gcr.io/halodoc-fisclouds/helm3
+    image: helm
     command:
     - cat
     tty: true
